@@ -25,17 +25,23 @@ const Partners = (): JSX.Element => {
   };
 
   return (
-    <div className="hero py-20 bg-primary-content overflow-hidden" id='partners'>
+    <div
+      className="hero py-20 bg-primary-content overflow-hidden"
+      id="partners"
+    >
       <div className="hero-content text-center flex-col">
         <div className="container mx-auto">
           <h1 className="text-5xl font-bold mb-20">Partners</h1>
           <Slider {...sliderOpts}>
             {Array.from({ length: 27 }).map((_, i) => (
-              <div key={i} className="mx-3">
+              <div
+                key={i}
+                className="mx-auto px-4 btn btn-neutral h-auto flex items-center justify-center"
+              >
                 <img
                   src={`/images/partners/partner-${i + 1}.png`}
                   alt="..."
-                  className="mx-auto cursor-pointer transform hover:scale-110 transition-transform w-32 h-16"
+                  className="w-full h-20 cursor-pointer transform hover:scale-110 transition-transform"
                 />
               </div>
             ))}
@@ -59,20 +65,22 @@ const Partners = (): JSX.Element => {
         </div>
         <div className="w-screen mt-40">
           <h1 className="text-5xl font-bold">Investment & Market Making</h1>
-          <div className="mt-5 flex justify-center py-10">
-            <img src="/images/dwf.png" alt="dwf" style={{ width: 150 }} />
+          <div className="mt-5 flex justify-center py-10 ">
+            <div className="btn btn-neutral w-40 h-20">
+              <img src="/images/dwf.png" alt="dwf" className="w-full h-auto" />{' '}
+            </div>
           </div>
         </div>
-        <div className="w-screen mt-40 max-w-6xl" id='exchanges'>
+        <div className="w-screen mt-40 max-w-6xl" id="exchanges">
           <h1 className="text-5xl font-bold">Exchanges</h1>
           <div className="mt-5">
             <div className="flex flex-wrap justify-center gap-5 py-10">
               {Array.from({ length: 10 }).map((_, i) => (
-                <div key={`Alliance_${i}`}>
+                <div key={`Alliance_${i}`} className="btn btn-neutral h-20">
                   <img
                     src={`/images/exchanges/exchange-${i + 1}.png`}
                     alt="themepark"
-                    className="rounded-xl"
+                    // className="rounded-xl"
                     style={{ width: 160, height: 60 }}
                   />
                 </div>

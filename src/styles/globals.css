@@ -3,4 +3,7 @@
 @tailwind utilities;
 
 body {
+  .slick-slide {
+    padding: 0 10px;
+  }
 }

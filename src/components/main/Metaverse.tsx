@@ -42,14 +42,14 @@ const Metaverse: React.FunctionComponent<IMetaverseProps> = (props) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
               <figure className="flex flex-col items-center px-10 pt-10">
                 <img
-                  src="/images/metaverse-4.png"
+                  src="/images/metaverse-4.jpg"
                   alt="themepark"
                   className="rounded-xl object-cover w-full h-48"
                 />
               </figure>
               <figure className="flex flex-col items-center px-10 pt-10">
                 <img
-                  src="/images/metaverse-5.png"
+                  src="/images/metaverse-5.jpg"
                   alt="shopping"
                   className="rounded-xl object-cover w-full h-48"
                 />
