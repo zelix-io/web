@@ -21,7 +21,7 @@ const Footer: React.FunctionComponent<IFooterProps> = (props) => {
         <a className="link link-hover">Press kit</a>
       </div>
       <div>
-        <div className="grid grid-flow-col gap-7">
+        <div className="flex flex-wrap gap-7 justify-center">
           <a className="link link-hover">
             <BsTwitter fontSize={24} />
           </a>

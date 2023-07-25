@@ -19,7 +19,7 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
           {/* <button className="btn btn-primary">Get Started</button> */}
         </div>
         <div className="mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <figure className="flex flex-col items-center">
               <div
                 className="btn btn-success"
