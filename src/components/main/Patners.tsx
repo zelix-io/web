@@ -41,7 +41,7 @@ const Partners = (): JSX.Element => {
                 <img
                   src={`/images/partners/partner-${i + 1}.png`}
                   alt="..."
-                  className="w-full h-20 cursor-pointer transform hover:scale-110 transition-transform"
+                  className="cursor-pointer transform hover:scale-110 transition-transform"
                 />
               </div>
             ))}
