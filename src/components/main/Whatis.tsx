@@ -4,7 +4,7 @@ interface IWhatisProps {}
 
 const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-200 pt-40" id='whatis'>
+    <div className="hero min-h-screen bg-base-200 pt-40" id="whatis">
       <div className="hero-content text-center flex-col">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">What is ZELIX?</h1>
@@ -19,42 +19,62 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
           {/* <button className="btn btn-primary">Get Started</button> */}
         </div>
         <div className="mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
-            <figure className="flex flex-col items-center px-10 pt-10">
-              <img
-                src="/images/ZX_ThemePark.png"
-                alt="themepark"
-                className="rounded-xl"
-              />
-              <figcaption className="mt-2 text-lg font-bold">Theme</figcaption>{' '}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+            <figure className="flex flex-col items-center">
+              <div
+                className="btn btn-success"
+                style={{ width: 278, height: 278 }}
+              >
+                <img
+                  src="/images/ZX_ThemePark.png"
+                  alt="themepark"
+                  className="rounded-xl w-full"
+                />
+              </div>
+              <figcaption className="mt-2 text-lg font-bold">Theme</figcaption>
             </figure>
-            <figure className="flex flex-col items-center px-10 pt-10">
-              <img
-                src="/images/ZX_Shopping.png"
-                alt="shopping"
-                className="rounded-xl"
-              />
+            <figure className="flex flex-col items-center">
+              <div
+                className="btn btn-success"
+                style={{ width: 278, height: 278 }}
+              >
+                <img
+                  src="/images/ZX_Shopping.png"
+                  alt="shopping"
+                  className="rounded-xl w-full"
+                />
+              </div>
               <figcaption className="mt-2 text-lg font-bold">
                 Shopping
-              </figcaption>{' '}
+              </figcaption>
             </figure>
-            <figure className="flex flex-col items-center px-10 pt-10">
-              <img
-                src="/images/ZX_NFTArt.png"
-                alt="nft-art"
-                className="rounded-xl"
-              />
+            <figure className="flex flex-col items-center">
+              <div
+                className="btn btn-success"
+                style={{ width: 278, height: 278 }}
+              >
+                <img
+                  src="/images/ZX_NFTArt.png"
+                  alt="nft-art"
+                  className="rounded-xl w-full"
+                />
+              </div>
               <figcaption className="mt-2 text-lg font-bold">
                 NFT ART
-              </figcaption>{' '}
+              </figcaption>
             </figure>
-            <figure className="flex flex-col items-center px-10 pt-10">
-              <img
-                src="/images/ZX_Work.png"
-                alt="work"
-                className="rounded-xl"
-              />
-              <figcaption className="mt-2 text-lg font-bold">Work</figcaption>{' '}
+            <figure className="flex flex-col items-center">
+              <div
+                className="btn btn-success"
+                style={{ width: 278, height: 278 }}
+              >
+                <img
+                  src="/images/ZX_Work.png"
+                  alt="work"
+                  className="rounded-xl w-full"
+                />
+              </div>
+              <figcaption className="mt-2 text-lg font-bold">Work</figcaption>
             </figure>
           </div>
         </div>
