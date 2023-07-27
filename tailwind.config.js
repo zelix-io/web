@@ -23,7 +23,8 @@ module.exports = {
           'base-600': '#324996',
           secondary: "#324996",
           accent: '#1FA3DD',
-          neutral:"#14294C"
+          neutral:"#14294C",
+          info:"#FFFFFF"
         },
       },
       'winter',
