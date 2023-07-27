@@ -67,15 +67,19 @@ const Career: React.FunctionComponent<ICareerProps> = (props) => {
           <div className="mt-5">
             <div className="grid grid-cols-1 md:grid-cols-2">
               {careerInfos.map((item, i) => (
-                <figure className="flex p-10 gap-5 bg-white" key={`Career_${i}`}>
-                  <img
-                    src={item.image}
-                    alt="themepark"
-                    className="rounded-xl"
-                    style={{ width: 56, height: 56 }}
-                  />
+                <figure
+                  className="flex p-10 gap-5 bg-white"
+                  key={`Career_${i}`}
+                >
                   <div className="flex flex-col items-start text-left gap-5">
-                    <figcaption className="mt-2 text-xl font-bold">
+                    <img
+                      src={item.image}
+                      alt="themepark"
+                      className="rounded-xl"
+                      style={{ width: 56, height: 56 }}
+                    />
+
+                    <figcaption className="mt-2 text-xl font-bold text-accent">
                       {item.title}
                     </figcaption>
                     <figcaption className="text-md text-left">
