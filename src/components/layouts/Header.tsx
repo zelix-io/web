@@ -58,11 +58,11 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl">
-          <img src="/images/zx-logo.png" alt="logo" className="w-20" />
+          <img src="/images/zx-logo.png" alt="logo" className="w-28" />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 font-bold text-lg">
           <li>
             <ScrollLink to="milestone" smooth="true">
               Milestone
@@ -106,9 +106,7 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
           </li> */}
         </ul>
       </div>
-      <div className="navbar-end">
-        {/* <a className="btn">Button</a> */}
-      </div>
+      {/* <div className="navbar-end"><a className="btn">Button</a></div> */}
     </div>
   );
 };

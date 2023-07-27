@@ -22,26 +22,26 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <figure className="flex flex-col items-center">
               <div
-                className="btn btn-success"
+                className="btn"
                 style={{ width: 278, height: 278 }}
               >
                 <img
                   src="/images/ZX_ThemePark.png"
                   alt="themepark"
-                  className="rounded-xl w-full"
+                  className="rounded-xl w-4/5"
                 />
               </div>
-              <figcaption className="mt-2 text-lg font-bold">Theme</figcaption>
+              <figcaption className="mt-2 text-lg font-bold">Theme Park</figcaption>
             </figure>
             <figure className="flex flex-col items-center">
               <div
-                className="btn btn-success"
+                className="btn"
                 style={{ width: 278, height: 278 }}
               >
                 <img
                   src="/images/ZX_Shopping.png"
                   alt="shopping"
-                  className="rounded-xl w-full"
+                  className="rounded-xl w-4/5"
                 />
               </div>
               <figcaption className="mt-2 text-lg font-bold">
@@ -50,13 +50,13 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
             </figure>
             <figure className="flex flex-col items-center">
               <div
-                className="btn btn-success"
+                className="btn"
                 style={{ width: 278, height: 278 }}
               >
                 <img
                   src="/images/ZX_NFTArt.png"
                   alt="nft-art"
-                  className="rounded-xl w-full"
+                  className="rounded-xl w-4/5"
                 />
               </div>
               <figcaption className="mt-2 text-lg font-bold">
@@ -64,14 +64,11 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
               </figcaption>
             </figure>
             <figure className="flex flex-col items-center">
-              <div
-                className="btn btn-success"
-                style={{ width: 278, height: 278 }}
-              >
+              <div className="btn" style={{ width: 278, height: 278 }}>
                 <img
                   src="/images/ZX_Work.png"
                   alt="work"
-                  className="rounded-xl w-full"
+                  className="rounded-xl w-4/5"
                 />
               </div>
               <figcaption className="mt-2 text-lg font-bold">Work</figcaption>

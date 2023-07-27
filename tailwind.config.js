@@ -15,7 +15,19 @@ module.exports = {
     },
   },
   daisyui: {
-    themes: ['winter'],
+    themes: [
+      {
+        mytheme: {
+          'base-100': '#F8FBFB',
+          'base-200': '#F0F5FF',
+          'base-600': '#324996',
+          secondary: "#324996",
+          accent: '#1FA3DD',
+          neutral:"#14294C"
+        },
+      },
+      'winter',
+    ],
   },
   plugins: [require('daisyui')],
 };

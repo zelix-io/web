@@ -57,15 +57,17 @@ const careerInfos = [
 
 const Career: React.FunctionComponent<ICareerProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-200 py-20" id='career'>
+    <div className="hero min-h-screen bg-base-200 py-20" id="career">
       <div className="hero-content text-center flex-col p-1">
         <div className="max-w-6xl">
           <h1 className="text-5xl font-bold py-10">Careers at Zelix</h1>
-          <p className='text-lg'>Join our quest to increase the Freedom of Money</p>
+          <p className="text-lg">
+            Join our quest to increase the Freedom of Money
+          </p>
           <div className="mt-5">
             <div className="grid grid-cols-1 md:grid-cols-2">
               {careerInfos.map((item, i) => (
-                <figure className="flex p-2 pt-10 gap-5" key={`Career_${i}`}>
+                <figure className="flex p-10 gap-5 bg-white" key={`Career_${i}`}>
                   <img
                     src={item.image}
                     alt="themepark"

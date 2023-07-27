@@ -5,7 +5,7 @@ interface IIntroProps {}
 
 const Intro: React.FunctionComponent<IIntroProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-200" id="intro">
+    <div className="hero min-h-screen bg-base-100" id="intro">
       <div className="hero-content flex-col lg:flex-row-reverse text-center">
         <img
           src="/images/test-img.gif"
@@ -23,7 +23,7 @@ const Intro: React.FunctionComponent<IIntroProps> = (props) => {
             We present a new concep of metaverse to users & build a
             multi-ecosystem.
           </p>
-          <button className="btn btn-primary">Whitepaper</button>
+          <button className="btn btn-accent rounded-full">Whitepaper</button>
         </div>
       </div>
     </div>

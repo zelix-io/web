@@ -4,13 +4,13 @@ interface IMilestoneProps {}
 
 const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-200" id='milestone'>
+    <div className="hero min-h-screen bg-secondary" id="milestone">
       <div className="hero-content text-center p-0">
-        <div className="w-screen flex justify-center flex-col items-center">
-          <h1 className="text-5xl font-bold">MILESTONE</h1>
+        <div className="w-screen flex justify-center flex-col items-center p-10">
+          <h1 className="text-5xl font-bold text-white">MILESTONE</h1>
           <div
             tabIndex={0}
-            className="collapse collapse-arrow border border-base-content bg-base-200 w-4/5 mt-10 text-left"
+            className="collapse collapse-arrow w-4/5 mt-20 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 
@@ -29,11 +29,11 @@ const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
 
           <div
             tabIndex={0}
-            className="collapse collapse-arrow border border-base-content  bg-base-200 w-4/5 mt-5 text-left"
+            className="collapse collapse-arrow  w-4/5 mt-5 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 
-            <div className="collapse-title text-xl font-medium">
+            <div className="collapse-title text-xl font-medium ">
               MULTI METAVERSE MILESTONE
             </div>
             <div className="collapse-content pl-10">
@@ -47,7 +47,7 @@ const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
           </div>
           <div
             tabIndex={0}
-            className="collapse collapse-arrow border border-base-content bg-base-200 w-4/5 mt-5 text-left"
+            className="collapse collapse-arrow w-4/5 mt-5 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 
@@ -63,7 +63,7 @@ const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
           </div>
           <div
             tabIndex={0}
-            className="collapse collapse-arrow border border-base-content  bg-base-200 w-4/5 mt-5 text-left"
+            className="collapse collapse-arrow  w-4/5 mt-5 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 
