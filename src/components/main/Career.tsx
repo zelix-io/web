@@ -60,10 +60,10 @@ const Career: React.FunctionComponent<ICareerProps> = (props) => {
     <div className="hero min-h-screen bg-base-200 py-20" id="career">
       <div className="hero-content text-center flex-col p-1">
         <div className="max-w-6xl">
-          <h1 className="text-5xl font-bold py-10">Careers at Zelix</h1>
-          <p className="text-lg">
+          <h1 className="text-5xl font-bold py-10">Careers</h1>
+          {/* <p className="text-lg">
             Join our quest to increase the Freedom of Money
-          </p>
+          </p> */}
           <div className="mt-5">
             <div className="grid grid-cols-1 md:grid-cols-2">
               {careerInfos.map((item, i) => (
