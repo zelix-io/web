@@ -65,10 +65,10 @@ const Career: React.FunctionComponent<ICareerProps> = (props) => {
             Join our quest to increase the Freedom of Money
           </p> */}
           <div className="mt-5">
-            <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {careerInfos.map((item, i) => (
                 <figure
-                  className="flex p-10 gap-5 bg-white"
+                  className="flex p-10 gap-5 bg-white rounded-xl"
                   key={`Career_${i}`}
                 >
                   <div className="flex flex-col items-start text-left gap-5">
