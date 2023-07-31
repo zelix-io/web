@@ -7,8 +7,10 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
     <div className="hero min-h-screen bg-base-200 pt-40" id="whatis">
       <div className="hero-content text-center flex-col">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold">What is ZELIX?</h1>
-          <p className="py-6">
+          <h1 className="text-5xl font-bold" data-aos="fade-up">
+            What is ZELIX?
+          </h1>
+          <p className="py-6" data-aos="fade-up">
             ZELIX is a link that integrates or extends all members of the ZELIX
             Metaverse community.
             <br />
@@ -18,7 +20,7 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
 
           {/* <button className="btn btn-primary">Get Started</button> */}
         </div>
-        <div className="py-10">
+        <div className="py-10" data-aos="fade-up">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <figure className="flex flex-col items-center ">
               <div className="btn btn-info" style={{ width: 278, height: 278 }}>

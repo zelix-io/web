@@ -74,9 +74,9 @@ const Team: React.FunctionComponent<ITeamProps> = (props) => {
     <div className="hero min-h-screen bg-base-200 py-20" id='team'>
       <div className="hero-content text-center flex-col p-0">
         <div className="max-w-6xl">
-          <h1 className="text-5xl font-bold">Zelix Team</h1>
+          <h1 className="text-5xl font-bold" data-aos="fade-up">Zelix Team</h1>
           <div className="mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3" data-aos="fade-up">
               {teamProfile.map((item, i: number) => (
                 <div key={`Team_${i}`}>
                   <figure className="flex flex-col items-center px-10 pt-10">
@@ -99,12 +99,12 @@ const Team: React.FunctionComponent<ITeamProps> = (props) => {
           </div>
         </div>
         <div className="w-screen mt-40 max-w-6xl" id='advisor'>
-          <h1 className="text-5xl font-bold">Advisor</h1>
+          <h1 className="text-5xl font-bold" data-aos="fade-up">Advisor</h1>
           <div className="mt-20">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
               {advisorProfile.map((item, i: number) => (
                 <div key={`Team_${i}`}>
-                  <figure className="flex flex-col items-center px-10 pt-10">
+                  <figure className="flex flex-col items-center px-10 pt-10" data-aos="fade-up">
                     <img
                       src={item.image}
                       alt="themepark"

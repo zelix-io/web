@@ -6,7 +6,7 @@ const Metaverse: React.FunctionComponent<IMetaverseProps> = (props) => {
   return (
     <div className="hero min-h-screen bg-base-100 pt-40" id='metaverse'>
       <div className="hero-content text-center">
-        <div className='p-10'>
+        <div className='p-10' data-aos="fade-up">
           <h1 className="text-5xl font-bold">ZELIX Metaverse Platform </h1>
 
           <div className="mt-20">

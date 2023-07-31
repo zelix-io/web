@@ -8,9 +8,9 @@ const Exchanges: React.FunctionComponent<IExchangesProps> = (props) => {
       <div className="hero bg-base-100 overflow-hidden py-20">
         {/* <div className="hero-content text-center flex-col px-4 sm:px-0"> */}
         <div className="w-full  max-w-6xl text-center">
-          <h1 className="text-5xl font-bold">Exchanges</h1>
+          <h1 className="text-5xl font-bold" data-aos="fade-up">Exchanges</h1>
           <div className="mt-5">
-            <div className="flex flex-wrap justify-center gap-5 py-10">
+            <div className="flex flex-wrap justify-center gap-5 py-10" data-aos="fade-up">
               {Array.from({ length: 10 }).map((_, i) => (
                 <div key={`Alliance_${i}`} className="btn btn-neutral h-20">
                   <img

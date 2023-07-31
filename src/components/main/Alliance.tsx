@@ -8,9 +8,9 @@ const Alliance: React.FunctionComponent<IAllianceProps> = (props) => {
       <div className="hero bg-base-100 overflow-hidden">
         {/* <div className="hero-content text-center flex-col px-4 sm:px-0"> */}
         <div className="w-full py-40">
-          <h1 className="text-5xl font-bold text-center">Metaverse Alliance</h1>
+          <h1 className="text-5xl font-bold text-center" data-aos="fade-up">Metaverse Alliance</h1>
           <div className="mt-5">
-            <div className="flex flex-wrap justify-center gap-5 py-10">
+            <div className="flex flex-wrap justify-center gap-5 py-10" data-aos="fade-up">
               {Array.from({ length: 6 }).map((_, i) => (
                 <div key={`Alliance_${i}`}>
                   <img
