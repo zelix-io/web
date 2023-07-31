@@ -4,10 +4,10 @@ interface IMetaverseProps {}
 
 const Metaverse: React.FunctionComponent<IMetaverseProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-100 pt-40" id='metaverse'>
-      <div className="hero-content text-center">
-        <div className='p-10' data-aos="fade-up">
-          <h1 className="text-5xl font-bold">ZELIX Metaverse Platform </h1>
+    <div className="hero min-h-screen bg-base-100" id="metaverse">
+      <div className="hero-content text-center py-20">
+        <div data-aos="fade-up">
+          <h1 className="text-3xl md:text-5xl font-bold">ZELIX Metaverse Platform</h1>
 
           <div className="mt-20">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
@@ -33,7 +33,7 @@ const Metaverse: React.FunctionComponent<IMetaverseProps> = (props) => {
                 />
               </figure>
             </div>
-            <p className="py-6 font-bold text-2xl">
+            <p className="py-6 font-bold text-xl">
               High quality blockchain metaverse platform built by Unity engine
             </p>
           </div>
@@ -62,7 +62,7 @@ const Metaverse: React.FunctionComponent<IMetaverseProps> = (props) => {
                 />
               </figure>
             </div>
-            <p className="py-6 font-bold text-2xl">
+            <p className="py-6 font-bold text-xl">
               Multi-contents metaverse platform where user can experience a
               variety of content
             </p>
@@ -92,7 +92,7 @@ const Metaverse: React.FunctionComponent<IMetaverseProps> = (props) => {
                 />
               </figure>
             </div>
-            <p className="py-6 font-bold text-2xl">
+            <p className="py-6 font-bold text-xl">
               Multi-Metaverse is a gateway where freely crosses all metaverses
             </p>
           </div>

@@ -5,12 +5,14 @@ interface IMilestoneProps {}
 const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
   return (
     <div className="hero min-h-screen bg-secondary" id="milestone">
-      <div className="hero-content text-center p-0">
-        <div className="w-screen flex justify-center flex-col items-center p-10">
-          <h1 className="text-5xl font-bold text-white">MILESTONE</h1>
+      <div className="text-center w-full max-w-6xl px-5">
+        <div className="w-full flex justify-center flex-col items-center py-20 2xl:py-0 ">
+          <h1 className="text-3xl md:text-5xl font-bold text-white">
+            MILESTONE
+          </h1>
           <div
             tabIndex={0}
-            className="collapse collapse-arrow w-4/5 mt-20 text-left text-white border-t border-white rounded-none"
+            className="collapse collapse-arrow mt-20 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 
@@ -29,7 +31,7 @@ const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
 
           <div
             tabIndex={0}
-            className="collapse collapse-arrow  w-4/5 mt-5 text-left text-white border-t border-white rounded-none"
+            className="collapse collapse-arrow  w-full mt-5 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 
@@ -47,7 +49,7 @@ const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
           </div>
           <div
             tabIndex={0}
-            className="collapse collapse-arrow w-4/5 mt-5 text-left text-white border-t border-white rounded-none"
+            className="collapse collapse-arrow w-full mt-5 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 
@@ -63,7 +65,7 @@ const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
           </div>
           <div
             tabIndex={0}
-            className="collapse collapse-arrow  w-4/5 mt-5 text-left text-white border-t border-white rounded-none"
+            className="collapse collapse-arrow  w-full mt-5 text-left text-white border-t border-white rounded-none"
           >
             <input type="checkbox" className="peer" />
 

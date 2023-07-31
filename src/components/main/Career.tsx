@@ -58,9 +58,9 @@ const careerInfos = [
 const Career: React.FunctionComponent<ICareerProps> = (props) => {
   return (
     <div className="hero min-h-screen bg-base-200 py-20" id="career">
-      <div className="hero-content text-center flex-col p-1">
+      <div className="hero-content text-center flex-col">
         <div className="max-w-6xl">
-          <h1 className="text-5xl font-bold py-10" data-aos="fade-up">Careers</h1>
+          <h1 className="text-3xl md:text-5xl font-bold py-10" data-aos="fade-up">Careers</h1>
           {/* <p className="text-lg">
             Join our quest to increase the Freedom of Money
           </p> */}

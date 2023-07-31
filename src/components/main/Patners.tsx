@@ -18,7 +18,7 @@ const Partners = (): JSX.Element => {
     <div className="hero py-20 bg-base-200 overflow-hidden" id="partners">
       <div className="hero-content text-center flex-col px-4 sm:px-0">
         <h1 className="text-5xl font-bold mb-20">Partners</h1>
-        <div className="max-w-[300px] sm:max-w-md md:max-w-4xl lg:max-w-5xl mx-auto ">
+        <div className="max-w-[300px] sm:max-w-md md:max-w-3xl lg:max-w-5xl mx-auto ">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
             spaceBetween={10}

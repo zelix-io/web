@@ -4,13 +4,13 @@ interface IWhatisProps {}
 
 const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-200 pt-40" id="whatis">
-      <div className="hero-content text-center flex-col">
+    <div className="hero min-h-screen bg-base-200" id="whatis">
+      <div className="hero-content text-center flex-col py-20 2xl:py-0">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold" data-aos="fade-up">
+          <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-up">
             What is ZELIX?
           </h1>
-          <p className="py-6" data-aos="fade-up">
+          <p className="my-6" data-aos="fade-up">
             ZELIX is a link that integrates or extends all members of the ZELIX
             Metaverse community.
             <br />
