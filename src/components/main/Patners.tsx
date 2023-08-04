@@ -95,7 +95,7 @@ const Partners = (): JSX.Element => {
             ))}
           </Swiper>
         </div>
-        <div className="hero overflow-hidden">
+        <div className="hero overflow-hidden max-w-6xl">
           {/* <div className="hero-content text-center flex-col px-4 sm:px-0"> */}
           <div className="w-full py-20 px-5">
             <h1
