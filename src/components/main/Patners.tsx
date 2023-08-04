@@ -40,7 +40,7 @@ const Partners = (): JSX.Element => {
                 slidesPerView: 4,
               },
               1024: {
-                slidesPerView: 6,
+                slidesPerView: 8,
               },
             }}
             loop
@@ -75,7 +75,7 @@ const Partners = (): JSX.Element => {
                 slidesPerView: 4,
               },
               1024: {
-                slidesPerView: 6,
+                slidesPerView: 8,
               },
             }}
             loop
