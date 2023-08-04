@@ -49,7 +49,7 @@ const Partners = (): JSX.Element => {
           >
             {Array.from({ length: 27 }).map((_, i) => (
               <SwiperSlide key={i}>
-                <div className="mx-auto btn btn-neutral h-20 flex items-center justify-center mb-10">
+                <div className="mx-auto btn btn-neutral h-28 flex items-center justify-center mb-10">
                   <img
                     src={`/images/partners/partner-${i + 1}.png`}
                     alt="..."
@@ -84,7 +84,7 @@ const Partners = (): JSX.Element => {
           >
             {Array.from({ length: 27 }).map((_, i) => (
               <SwiperSlide key={i}>
-                <div className="mx-auto btn btn-neutral h-20 flex items-center justify-center">
+                <div className="mx-auto btn btn-neutral h-28 flex items-center justify-center">
                   <img
                     src={`/images/partners/partner-${i + 1}.png`}
                     alt="..."
