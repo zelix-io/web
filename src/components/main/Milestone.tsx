@@ -4,7 +4,11 @@ interface IMilestoneProps {}
 
 const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-secondary" id="milestone">
+    <div
+      className="hero min-h-screen bg-secondary"
+      style={{ backgroundImage: 'url(/images/4_milestone.png' }}
+      id="milestone"
+    >
       <div className="text-center w-full max-w-6xl px-5">
         <div className="w-full flex justify-center flex-col items-center py-20 2xl:py-0 ">
           <h1 className="text-3xl md:text-5xl font-bold text-white">

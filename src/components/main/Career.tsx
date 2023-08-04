@@ -60,7 +60,12 @@ const Career: React.FunctionComponent<ICareerProps> = (props) => {
     <div className="hero min-h-screen bg-base-200 py-20" id="career">
       <div className="hero-content text-center flex-col">
         <div className="max-w-6xl">
-          <h1 className="text-3xl md:text-5xl font-bold py-10" data-aos="fade-up">Careers</h1>
+          <h1
+            className="text-3xl md:text-5xl font-bold py-10"
+            data-aos="fade-up"
+          >
+            Careers
+          </h1>
           {/* <p className="text-lg">
             Join our quest to increase the Freedom of Money
           </p> */}
@@ -68,10 +73,10 @@ const Career: React.FunctionComponent<ICareerProps> = (props) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {careerInfos.map((item, i) => (
                 <figure
-                  className="flex p-10 gap-5 bg-white rounded-xl"
+                  className="flex p-5  bg-white rounded-xl"
                   key={`Career_${i}`}
                 >
-                  <div className="flex flex-col items-start text-left gap-5">
+                  <div className="flex flex-col items-start text-left gap-2">
                     <img
                       src={item.image}
                       alt="themepark"

@@ -18,9 +18,9 @@ export default function Home() {
       <Milestone />
       <Team />
       <Patners />
-      <Alliance />
+      {/* <Alliance /> */}
       <Investment />
-      <Exchanges />
+      {/* <Exchanges /> */}
       <Career />
     </>
   );

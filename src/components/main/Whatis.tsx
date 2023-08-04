@@ -4,8 +4,12 @@ interface IWhatisProps {}
 
 const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-200" id="whatis">
-      <div className="hero-content text-center flex-col py-20 2xl:py-0">
+    <div
+      className="hero min-h-screen bg-base-200"
+      style={{ backgroundImage: 'url(/images/2_zelix.png' }}
+      id="whatis"
+    >
+      <div className="hero-content text-center flex-col py-20 2xl:py-0 w-full">
         <div className="max-w-md">
           <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-up">
             What is ZELIX?
@@ -20,14 +24,14 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
 
           {/* <button className="btn btn-primary">Get Started</button> */}
         </div>
-        <div className="py-10" data-aos="fade-up">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="py-10 w-full" data-aos="fade-up">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-5 w-full">
             <figure className="flex flex-col items-center ">
-              <div className="btn btn-info" style={{ width: 278, height: 278 }}>
+              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
                 <img
                   src="/images/ZX_ThemePark.png"
                   alt="themepark"
-                  className="rounded-xl w-4/5"
+                  className="rounded-xl w-full"
                 />
               </div>
               <figcaption className="mt-2 text-lg font-bold">
@@ -35,11 +39,11 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
               </figcaption>
             </figure>
             <figure className="flex flex-col items-center">
-              <div className="btn btn-info" style={{ width: 278, height: 278 }}>
+              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
                 <img
                   src="/images/ZX_Shopping.png"
                   alt="shopping"
-                  className="rounded-xl w-4/5"
+                  className="rounded-xl w-full"
                 />
               </div>
               <figcaption className="mt-2 text-lg font-bold">
@@ -47,11 +51,11 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
               </figcaption>
             </figure>
             <figure className="flex flex-col items-center">
-              <div className="btn btn-info" style={{ width: 278, height: 278 }}>
+              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
                 <img
                   src="/images/ZX_NFTArt.png"
                   alt="nft-art"
-                  className="rounded-xl w-4/5"
+                  className="rounded-xl w-full"
                 />
               </div>
               <figcaption className="mt-2 text-lg font-bold">
@@ -59,11 +63,11 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
               </figcaption>
             </figure>
             <figure className="flex flex-col items-center">
-              <div className="btn btn-info" style={{ width: 278, height: 278 }}>
+              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
                 <img
                   src="/images/ZX_Work.png"
                   alt="work"
-                  className="rounded-xl w-4/5"
+                  className="rounded-xl w-full"
                 />
               </div>
               <figcaption className="mt-2 text-lg font-bold">Work</figcaption>

@@ -5,6 +5,7 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
   theme: {
     extend: {
       backgroundImage: {
@@ -14,6 +15,12 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      backgroundColor: ['active'], // add this line
+      textColor: ['active'], // add this line
+    },
+  },
   daisyui: {
     themes: [
       {
@@ -21,10 +28,10 @@ module.exports = {
           'base-100': '#F8FBFB',
           'base-200': '#F0F5FF',
           'base-600': '#324996',
-          secondary: "#324996",
+          secondary: '#324996',
           accent: '#1FA3DD',
-          neutral:"#14294C",
-          info:"#FFFFFF"
+          neutral: '#14294C',
+          info: '#FFFFFF',
         },
       },
       'winter',

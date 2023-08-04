@@ -15,10 +15,14 @@ import 'swiper/css/scrollbar';
 
 const Partners = (): JSX.Element => {
   return (
-    <div className="hero py-20 bg-base-200 overflow-hidden" id="partners">
-      <div className="hero-content text-center flex-col px-4 sm:px-0">
-        <h1 className="text-5xl font-bold mb-20">Partners</h1>
-        <div className="max-w-[300px] sm:max-w-md md:max-w-3xl lg:max-w-5xl mx-auto ">
+    <div
+      className="hero py-20 bg-base-200"
+      style={{ backgroundImage: 'url(/images/6_partner.png' }}
+      id="partners"
+    >
+      <div className="hero-content text-center flex-col px-0 max-w-6xl overflow-hidden">
+        <h1 className="text-3xl md:text-5xl font-bold mb-20">Partners</h1>
+        <div className="w-screen mx-auto">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
             spaceBetween={10}
@@ -29,6 +33,9 @@ const Partners = (): JSX.Element => {
               reverseDirection: true,
             }}
             breakpoints={{
+              425: {
+                slidesPerView: 3,
+              },
               768: {
                 slidesPerView: 4,
               },
@@ -61,6 +68,9 @@ const Partners = (): JSX.Element => {
               disableOnInteraction: false,
             }}
             breakpoints={{
+              425: {
+                slidesPerView: 3,
+              },
               768: {
                 slidesPerView: 4,
               },
@@ -84,6 +94,33 @@ const Partners = (): JSX.Element => {
               </SwiperSlide>
             ))}
           </Swiper>
+        </div>
+        <div className="hero overflow-hidden">
+          {/* <div className="hero-content text-center flex-col px-4 sm:px-0"> */}
+          <div className="w-full py-20 px-5">
+            <h1
+              className="text-3xl md:text-5xl font-bold text-center"
+              data-aos="fade-up"
+            >
+              Metaverse Alliance
+            </h1>
+            <div className="mt-5">
+              <div
+                className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 py-10"
+                data-aos="fade-up"
+              >
+                {Array.from({ length: 6 }).map((_, i) => (
+                  <div key={`Alliance_${i}`}>
+                    <img
+                      src={`/images/alliance/alliance-${i + 1}.jpg`}
+                      alt="themepark"
+                      className="rounded-xl w-28 md:w-40"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

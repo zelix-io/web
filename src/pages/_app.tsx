@@ -6,23 +6,24 @@ import 'aos/dist/aos.css';
 import type { AppProps } from 'next/app';
 import { useEffect } from 'react';
 import { DefaultSeo } from 'next-seo';
+import Head from 'next/head';
 
 const DEFAULT_SEO = {
-  title: 'Zelix',
-  description: 'Zelix',
+  title: 'ZELIX',
+  description: 'ZELIX',
   canonical: 'https://www.zelix.com',
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
     url: 'https://www.zelix.com',
-    title: 'Zelix',
-    site_name: 'Zelix',
+    title: 'ZELIX',
+    site_name: 'ZELIX',
     images: [
       {
         url: '/images/zx-logo.png',
         width: 285,
         height: 167,
-        alt: '이미지',
+        alt: 'logo',
       },
     ],
   },
@@ -35,6 +36,9 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <Head>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <DefaultSeo {...DEFAULT_SEO} />
       <Header />
       <Component {...pageProps} />
