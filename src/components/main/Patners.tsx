@@ -20,7 +20,7 @@ const Partners = (): JSX.Element => {
       style={{ backgroundImage: 'url(/images/6_partner.png' }}
       id="partners"
     >
-      <div className="hero-content text-center flex-col px-0 max-w-6xl overflow-hidden">
+      <div className="hero-content text-center flex-col px-0 max-w-screen-2xl overflow-hidden">
         <h1 className="text-3xl md:text-5xl font-bold mb-20">Partners</h1>
         <div className="w-screen mx-auto">
           <Swiper
@@ -40,7 +40,7 @@ const Partners = (): JSX.Element => {
                 slidesPerView: 4,
               },
               1024: {
-                slidesPerView: 5,
+                slidesPerView: 6,
               },
             }}
             loop
@@ -75,7 +75,7 @@ const Partners = (): JSX.Element => {
                 slidesPerView: 4,
               },
               1024: {
-                slidesPerView: 5,
+                slidesPerView: 6,
               },
             }}
             loop
