@@ -106,11 +106,14 @@ const Partners = (): JSX.Element => {
             </h1>
             <div className="mt-5">
               <div
-                className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 py-10"
+                className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 py-10 items-center justify-center"
                 data-aos="fade-up"
               >
                 {Array.from({ length: 6 }).map((_, i) => (
-                  <div key={`Alliance_${i}`}>
+                  <div
+                    key={`Alliance_${i}`}
+                    className="flex justify-center items-center"
+                  >
                     <img
                       src={`/images/alliance/alliance-${i + 1}.jpg`}
                       alt="themepark"
