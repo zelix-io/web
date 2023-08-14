@@ -25,9 +25,9 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
           {/* <button className="btn btn-primary">Get Started</button> */}
         </div>
         <div className="py-10 w-full" data-aos="fade-up">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-5 w-full">
-            <figure className="flex flex-col items-center ">
-              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 w-full">
+            <figure className="flex flex-col items-center mb-10 lg:mb-0">
+              <div className="btn btn-info h-full">
                 <img
                   src="/images/ZX_ThemePark.png"
                   alt="themepark"
@@ -38,8 +38,8 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
                 Theme Park
               </figcaption>
             </figure>
-            <figure className="flex flex-col items-center">
-              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
+            <figure className="flex flex-col items-center  mb-10 lg:mb-0">
+              <div className="btn btn-info h-full">
                 <img
                   src="/images/ZX_Shopping.png"
                   alt="shopping"
@@ -50,8 +50,8 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
                 Shopping
               </figcaption>
             </figure>
-            <figure className="flex flex-col items-center">
-              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
+            <figure className="flex flex-col items-center  mb-10 lg:mb-0">
+              <div className="btn btn-info h-full">
                 <img
                   src="/images/ZX_NFTArt.png"
                   alt="nft-art"
@@ -62,8 +62,8 @@ const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
                 NFT ART
               </figcaption>
             </figure>
-            <figure className="flex flex-col items-center">
-              <div className="btn btn-info md:w-64 md:h-64 w-32 h-32">
+            <figure className="flex flex-col items-center  mb-10 lg:mb-0">
+              <div className="btn btn-info h-full">
                 <img
                   src="/images/ZX_Work.png"
                   alt="work"

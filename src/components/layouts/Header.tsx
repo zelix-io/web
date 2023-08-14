@@ -13,9 +13,13 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
   return (
     <div className="navbar bg-base-100 max-w-7xl m-auto">
       <div className="navbar-start w-full flex justify-between items-center">
-        <a className="btn btn-ghost normal-case text-xl hover:bg-transparent">
+        <ScrollLink
+          className="btn btn-ghost normal-case text-xl hover:bg-transparent"
+          to="whatis"
+          smooth="true"
+        >
           <img src="/images/zx-logo.png" alt="logo" className="w-32" />
-        </a>
+        </ScrollLink>
 
         <div className="drawer drawer-end w-auto">
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />

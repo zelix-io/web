@@ -33,6 +33,9 @@ const Partners = (): JSX.Element => {
               reverseDirection: true,
             }}
             breakpoints={{
+              320: {
+                slidesPerView: 2,
+              },
               425: {
                 slidesPerView: 3,
               },
@@ -40,6 +43,12 @@ const Partners = (): JSX.Element => {
                 slidesPerView: 4,
               },
               1024: {
+                slidesPerView: 6,
+              },
+              1440: {
+                slidesPerView: 7,
+              },
+              1536: {
                 slidesPerView: 8,
               },
             }}
@@ -49,11 +58,15 @@ const Partners = (): JSX.Element => {
           >
             {Array.from({ length: 27 }).map((_, i) => (
               <SwiperSlide key={i}>
-                <div className="mx-auto btn btn-neutral h-28 flex items-center justify-center mb-10">
+                <div
+                  className="mx-auto btn btn-neutral h-20 flex items-center justify-center mb-10"
+                  style={{ width: 174, height: 80 }}
+                >
                   <img
                     src={`/images/partners/partner-${i + 1}.png`}
                     alt="..."
                     className="cursor-pointer transform hover:scale-110 transition-transform max-w-full"
+                    style={{ width: 160, height: 60 }}
                   />
                 </div>
               </SwiperSlide>
@@ -68,6 +81,9 @@ const Partners = (): JSX.Element => {
               disableOnInteraction: false,
             }}
             breakpoints={{
+              320: {
+                slidesPerView: 2,
+              },
               425: {
                 slidesPerView: 3,
               },
@@ -75,6 +91,12 @@ const Partners = (): JSX.Element => {
                 slidesPerView: 4,
               },
               1024: {
+                slidesPerView: 6,
+              },
+              1440: {
+                slidesPerView: 7,
+              },
+              1536: {
                 slidesPerView: 8,
               },
             }}
@@ -84,11 +106,15 @@ const Partners = (): JSX.Element => {
           >
             {Array.from({ length: 27 }).map((_, i) => (
               <SwiperSlide key={i}>
-                <div className="mx-auto btn btn-neutral h-28 flex items-center justify-center">
+                <div
+                  className="mx-auto btn btn-neutral h-20 flex items-center justify-center mb-10"
+                  style={{ width: 174, height: 80 }}
+                >
                   <img
                     src={`/images/partners/partner-${i + 1}.png`}
                     alt="..."
                     className="cursor-pointer transform hover:scale-110 transition-transform max-w-full"
+                    style={{ width: 160, height: 60 }}
                   />
                 </div>
               </SwiperSlide>
@@ -117,7 +143,7 @@ const Partners = (): JSX.Element => {
                     <img
                       src={`/images/alliance/alliance-${i + 1}.jpg`}
                       alt="themepark"
-                      className="rounded-xl w-28 md:w-40"
+                      className="rounded-xl w-full md:w-40"
                     />
                   </div>
                 ))}

@@ -16,7 +16,7 @@ const Alliance: React.FunctionComponent<IAllianceProps> = (props) => {
                   <img
                     src={`/images/alliance/alliance-${i + 1}.jpg`}
                     alt="themepark"
-                    className="rounded-xl w-48"
+                    className="rounded-xl w-full"
                   />
                 </div>
               ))}

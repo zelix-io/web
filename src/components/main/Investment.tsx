@@ -9,7 +9,7 @@ const Investment: React.FunctionComponent<IInvestmentProps> = (props) => {
         className="hero bg-base-200 overflow-hidden py-20"
         style={{ backgroundImage: 'url(/images/7_investment.png' }}
       >
-        <div className="hero-content text-center flex-col sm:px-0">
+        <div className="hero-content text-center flex-col sm:px-0" id='exchanges'>
           <div className="w-full py-20 text-center">
             <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-up">
               Investment & Market Making
