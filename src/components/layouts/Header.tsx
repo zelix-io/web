@@ -69,7 +69,9 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
                 </ScrollLink>
               </li>
               <li>
-                <a>Whitepaper</a>
+                <a href="https://zelix-io.gitbook.io/zelix/" target="_blank">
+                  Whitepaper
+                </a>
               </li>
             </ul>
           </div>
@@ -124,7 +126,13 @@ const Header: React.FunctionComponent<IHeaderProps> = (props) => {
             </ScrollLink>
           </li>
           <li>
-            <a className="hover:bg-transparent">Whitepaper</a>
+            <a
+              className="hover:bg-transparent"
+              href="https://zelix-io.gitbook.io/zelix/"
+              target="_blank"
+            >
+              Whitepaper
+            </a>
           </li>
           {/* <li tabIndex={0}>
             <details>

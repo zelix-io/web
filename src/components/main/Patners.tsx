@@ -16,8 +16,8 @@ import 'swiper/css/scrollbar';
 const Partners = (): JSX.Element => {
   return (
     <div
-      className="hero py-20 bg-base-200"
-      style={{ backgroundImage: 'url(/images/6_partner.png' }}
+      className="hero py-20 bg-base-200 bg-partner"
+      // style={{ backgroundImage: 'url(/images/6_partner.png' }}
       id="partners"
     >
       <div className="hero-content text-center flex-col px-0 max-w-screen-2xl overflow-hidden">

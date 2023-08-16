@@ -7,3 +7,80 @@ body {
     transition-timing-function: linear;
   }
 }
+
+.bg-intro {
+  background-image: url('/images/1_intro.png');
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px는 Tailwind의 xs 브레이크 포인트입니다 */
+  .bg-intro {
+    background-image: url('/images/1_intro_m.png');
+  }
+}
+
+.bg-whatis {
+  background-image: url('/images/2_zelix.png');
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px는 Tailwind의 xs 브레이크 포인트입니다 */
+  .bg-whatis {
+    background-image: url('/images/2_zelix_m.png');
+  }
+}
+
+.bg-metaverse {
+  background-image: url('/images/3_metaverse.png');
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px는 Tailwind의 xs 브레이크 포인트입니다 */
+  .bg-metaverse {
+    background-image: url('/images/3_metaverse_m.png');
+  }
+}
+
+.bg-milestone {
+  background-image: url('/images/4_milestone.png');
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px는 Tailwind의 xs 브레이크 포인트입니다 */
+  .bg-milestone {
+    background-image: url('/images/4_milestone_m.png');
+  }
+}
+
+.bg-team {
+  background-image: url('/images/5_team.png');
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px는 Tailwind의 xs 브레이크 포인트입니다 */
+  .bg-team {
+    background-image: url('/images/5_team_m.png');
+  }
+}
+
+.bg-partner {
+  background-image: url('/images/6_partner.png');
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px는 Tailwind의 xs 브레이크 포인트입니다 */
+  .bg-partner {
+    background-image: url('/images/6_partner_m.png');
+  }
+}
+
+.bg-investment {
+  background-image: url('/images/7_investment.png');
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px는 Tailwind의 xs 브레이크 포인트입니다 */
+  .bg-investment {
+    background-image: url('/images/7_investment_m.png');
+  }
+}

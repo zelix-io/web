@@ -5,8 +5,8 @@ interface IWhatisProps {}
 const Whatis: React.FunctionComponent<IWhatisProps> = (props) => {
   return (
     <div
-      className="hero min-h-screen bg-base-200"
-      style={{ backgroundImage: 'url(/images/2_zelix.png' }}
+      className="hero min-h-screen bg-base-200 bg-whatis"
+      // style={{ backgroundImage: 'url(/images/2_zelix.png' }}
       id="whatis"
     >
       <div className="hero-content text-center flex-col py-20 2xl:py-0 w-full">

@@ -4,10 +4,16 @@ interface IMetaverseProps {}
 
 const Metaverse: React.FunctionComponent<IMetaverseProps> = (props) => {
   return (
-    <div className="hero min-h-screen bg-base-100"  style={{ backgroundImage: 'url(/images/3_metaverse.png' }} id="metaverse">
+    <div
+      className="hero min-h-screen bg-base-100 bg-metaverse"
+      // style={{ backgroundImage: 'url(/images/3_metaverse.png' }}
+      id="metaverse"
+    >
       <div className="hero-content text-center py-20">
         <div data-aos="fade-up">
-          <h1 className="text-3xl md:text-5xl font-bold">ZELIX Metaverse Platform</h1>
+          <h1 className="text-3xl md:text-5xl font-bold">
+            ZELIX Metaverse Platform
+          </h1>
 
           <div className="mt-20">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">

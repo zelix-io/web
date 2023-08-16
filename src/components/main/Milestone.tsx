@@ -5,8 +5,8 @@ interface IMilestoneProps {}
 const Milestone: React.FunctionComponent<IMilestoneProps> = (props) => {
   return (
     <div
-      className="hero min-h-screen bg-secondary"
-      style={{ backgroundImage: 'url(/images/4_milestone.png' }}
+      className="hero min-h-screen bg-secondary bg-milestone"
+      // style={{ backgroundImage: 'url(/images/4_milestone.png' }}
       id="milestone"
     >
       <div className="text-center w-full max-w-6xl px-5">

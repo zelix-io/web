@@ -8,6 +8,7 @@ import {
   BsGithub,
   BsYoutube,
 } from 'react-icons/bs';
+import { GrMedium } from 'react-icons/gr';
 
 interface IFooterProps {}
 
@@ -29,21 +30,45 @@ const Footer: React.FunctionComponent<IFooterProps> = (props) => {
       </div>
       <div>
         <div className="flex flex-wrap gap-7 justify-center">
-          <a className="link link-hover">
+          <a
+            className="link link-hover"
+            href="https://twitter.com/zelix_official"
+            target="_blank"
+          >
             <BsTwitter fontSize={24} />
           </a>
-          <a className="link link-hover">
+          <a
+            className="link link-hover"
+            href="https://discord.gg/PR5ZAGwJ9X"
+            target="_blank"
+          >
             <BsDiscord fontSize={24} />
           </a>
-          <a className="link link-hover">
+          <a
+            className="link link-hover"
+            href="https://www.facebook.com/zelix_official"
+            target="_blank"
+          >
             <BsFacebook fontSize={24} />
           </a>
           {/* <a className="link link-hover">
             <BsCurrencyBitcoin fontSize={24} />
           </a> */}
-          <a className="link link-hover">
+          <a
+            className="link link-hover"
+            href="https://t.me/zelixofficial"
+            target="_blank"
+          >
             <BsTelegram fontSize={24} />
           </a>
+          <a
+            className="link link-hover"
+            href="https://medium.com/@zelix_official"
+            target="_blank"
+          >
+            <GrMedium fontSize={24} />
+          </a>
+
           {/* <a className="link link-hover">
             <BsGithub fontSize={24} />
           </a>

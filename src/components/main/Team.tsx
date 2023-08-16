@@ -72,8 +72,8 @@ const advisorProfile = [
 const Team: React.FunctionComponent<ITeamProps> = (props) => {
   return (
     <div
-      className="hero min-h-screen bg-base-200 py-20"
-      style={{ backgroundImage: 'url(/images/5_team.png' }}
+      className="hero min-h-screen bg-base-200 py-20 bg-team"
+      // style={{ backgroundImage: 'url(/images/5_team.png' }}
       id="team"
     >
       <div className="hero-content text-center flex-col p-0">
