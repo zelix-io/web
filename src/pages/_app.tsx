@@ -11,6 +11,7 @@ import Head from 'next/head';
 const DEFAULT_SEO = {
   title: 'ZELIX',
   description: 'ZELIX',
+  keywords:"zelix, ZELIX, onston, 젤릭스, 온스톤, onston.network",
   canonical: 'https://www.zelix.io',
   openGraph: {
     type: 'website',
