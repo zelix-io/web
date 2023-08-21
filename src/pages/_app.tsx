@@ -11,7 +11,7 @@ import Head from 'next/head';
 const DEFAULT_SEO = {
   title: 'ZELIX',
   description: 'ZELIX',
-  keywords:"zelix, ZELIX, onston, 젤릭스, 온스톤, onston.network",
+  keywords: 'zelix, ZELIX, onston, 젤릭스, 온스톤, onston.network',
   canonical: 'https://www.zelix.io',
   openGraph: {
     type: 'website',
@@ -39,6 +39,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="icon" href="/favicon.png" />
+        <meta
+          name="naver-site-verification"
+          content="29bd166a23e2604c5f919d84039f0f2f60f8e723"
+        />
       </Head>
       <DefaultSeo {...DEFAULT_SEO} />
       <Header />
