@@ -60,7 +60,7 @@ const Partners = (): JSX.Element => {
               <SwiperSlide key={i}>
                 <div
                   className="mx-auto btn btn-neutral h-20 flex items-center justify-center mb-10"
-                  style={{ width: 174, height: 80 }}
+                  style={{ width: 160, height: 80 }}
                 >
                   <img
                     src={`/images/partners/partner-${i + 1}.png`}
@@ -108,7 +108,7 @@ const Partners = (): JSX.Element => {
               <SwiperSlide key={i}>
                 <div
                   className="mx-auto btn btn-neutral h-20 flex items-center justify-center mb-10"
-                  style={{ width: 174, height: 80 }}
+                  style={{ width: 160, height: 80 }}
                 >
                   <img
                     src={`/images/partners/partner-${i + 1}.png`}
