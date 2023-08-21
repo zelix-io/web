@@ -11,11 +11,11 @@ import Head from 'next/head';
 const DEFAULT_SEO = {
   title: 'ZELIX',
   description: 'ZELIX',
-  canonical: 'https://www.zelix.com',
+  canonical: 'https://www.zelix.io',
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
-    url: 'https://www.zelix.com',
+    url: 'https://www.zelix.io',
     title: 'ZELIX',
     site_name: 'ZELIX',
     images: [
