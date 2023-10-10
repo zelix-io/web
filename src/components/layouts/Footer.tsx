@@ -46,7 +46,7 @@ const Footer: React.FunctionComponent<IFooterProps> = (props) => {
           </a>
           <a
             className="link link-hover"
-            href="https://www.facebook.com/zelix_official"
+            href="https://www.facebook.com/zelixofficialfb"
             target="_blank"
           >
             <BsFacebook fontSize={24} />

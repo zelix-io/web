@@ -32,7 +32,7 @@ const Investment: React.FunctionComponent<IInvestmentProps> = (props) => {
                   className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 py-10"
                   data-aos="fade-up"
                 >
-                  {Array.from({ length: 10 }).map((_, i) => (
+                  {Array.from({ length: 5 }).map((_, i) => (
                     <div key={`Alliance_${i}`} className="btn btn-neutral h-20">
                       <img
                         src={`/images/exchanges/exchange-${i + 1}.png`}
