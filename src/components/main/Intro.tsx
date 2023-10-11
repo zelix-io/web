@@ -62,7 +62,7 @@ const Intro: React.FunctionComponent<IIntroProps> = (props) => {
           <div
             className="modal-box h-auto"
             style={{
-              backgroundImage: "url('/images/modal-back.jpg')",
+              backgroundImage: "url('/images/back-modal.jpg')",
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover',
               backgroundPosition: 'center top',
@@ -89,9 +89,12 @@ const Intro: React.FunctionComponent<IIntroProps> = (props) => {
                   <br />
                   Token Swap Details:
                   <br />
+                  <br />
                   - Previous Token Name: ONSTON
                   <br />
                   - New Token Name: ZELIX
+                  <br />
+                  - ZELIX Token Contract : 0x0257ffd7ea2ebba4aaa090c7adbdd032a08c1f74
                   <br />
                   - Swap Ratio: For every 1 ONSTON token, you will receive 10
                   ZELIX tokens.
@@ -115,6 +118,7 @@ const Intro: React.FunctionComponent<IIntroProps> = (props) => {
                   - Application period : 2023.10.10 00:00 (GMT+0) ~ 2023.10.16
                   24:00 (GMT+0)
                   <br />
+                  <br />
                   More Detail:
                   <br />
                   <a
@@ -125,6 +129,7 @@ const Intro: React.FunctionComponent<IIntroProps> = (props) => {
                   >
                     https://link.medium.com/sx4eaPzsyDb
                   </a>
+                  <br />
                   <br />
                   [Notice on termination of ONSTON Wallet service]
                   <br />
@@ -147,6 +152,7 @@ const Intro: React.FunctionComponent<IIntroProps> = (props) => {
                   <br />
                   <br />
                   ONSTON Wallet Service Details:
+                  <br />
                   <br />
                   - Wallet deposit/withdrawal suspension: 2023.10.11 00:00
                   (GMT+9)~
@@ -174,7 +180,9 @@ const Intro: React.FunctionComponent<IIntroProps> = (props) => {
                   24:00 (GMT+9)
                   <br />
                   <br />
-                  With deep appreciation, The ZELIX Team
+                  With deep appreciation,
+                  <br />
+                  The ZELIX Team
                 </p>
               </div>
             </div>
