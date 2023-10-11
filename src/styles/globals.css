@@ -118,7 +118,7 @@ body {
 /* 기본 스타일 */
 .my-div {
   padding-top: 3rem;
-  height: 700px;
+  /* height: 700px; */
 }
 
 .my-text-box {
