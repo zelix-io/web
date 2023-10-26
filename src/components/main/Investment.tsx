@@ -4,9 +4,9 @@ interface IInvestmentProps {}
 
 const ExchangeLink = [
   'https://www.kucoin.com/trade/ZELIX-USDT',
-  'https://www.mexc.com/exchange/ZELIX_USDT',
-  'https://www.htx.com/en-us/trade/zelix_usdt',
   'https://www.gate.io/trade/ZELIX_USDT',
+  'https://www.htx.com/en-us/trade/zelix_usdt',
+  'https://www.mexc.com/exchange/ZELIX_USDT',
   'https://www.poloniex.com/trade/ZELIX_USDT',
 ];
 
