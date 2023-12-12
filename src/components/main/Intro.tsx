@@ -4,18 +4,18 @@ import Typed from 'react-typed';
 interface IIntroProps {}
 
 const Intro: React.FunctionComponent<IIntroProps> = (props) => {
-  const openModal = React.useCallback(() => {
-    const modalElement = document.getElementById(
-      'my_modal_3'
-    ) as HTMLDialogElement | null;
-    if (modalElement) {
-      modalElement.showModal();
-    }
-  }, []);
+  // const openModal = React.useCallback(() => {
+  //   const modalElement = document.getElementById(
+  //     'my_modal_3'
+  //   ) as HTMLDialogElement | null;
+  //   if (modalElement) {
+  //     modalElement.showModal();
+  //   }
+  // }, []);
 
-  React.useEffect(() => {
-    openModal();
-  }, []);
+  // React.useEffect(() => {
+  //   openModal();
+  // }, []);
 
   return (
     <div
