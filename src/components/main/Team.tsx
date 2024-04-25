@@ -11,10 +11,10 @@ const teamProfile = [
     image: '/images/team-1.png',
   },
   {
-    name: 'Kyung Chan Park',
-    position: 'CMO of Zelix',
+    name: 'Andriy Shevchenko',
+    position: 'COO',
     career:
-      'CEO of CTU global Ltd. Graduated from KyungHee University in South Korea',
+      "Master's degree, Business Administration, Lviv Polytechnic National University",
     image: '/images/team-2.png',
   },
   {
@@ -39,7 +39,7 @@ const teamProfile = [
     image: '/images/team-5.png',
   },
   {
-    name: 'Oleh Nykoliak',
+    name: 'Ivan Petrov',
     position: 'Developer of Zelix',
     career:
       "Developer of CodePillow Bachelor's degree, Internet of Things in Lviv Polytechnic National University",
